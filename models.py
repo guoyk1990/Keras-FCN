@@ -20,6 +20,7 @@ from utils.resnet_helpers import *
 from utils.BilinearUpSampling import *
 
 
+
 def top(x, input_shape, classes, activation, weight_decay):
 
     x = Conv2D(classes, (1, 1), activation='linear',
